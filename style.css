@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+body, html{
+	scroll-behavior: smooth;
+	background-color: #fff;
+	color: white;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background-image: url(27097.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: hidden;
+	background-attachment: fixed;
+	font-family: 'Geologica', sans-serif;
+}
+header {
+  position: fixed;
+  top: 5%;
+  right: -18%;
+  width: 60%;
+  height: 10vh;
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+}
+.links {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding: 10px 30px;
+  background-color: #ed2890;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px #ed2890;
+}
+
+.links:hover {
+  box-shadow: 0px 0px 10px #ff7bc1;
+  background-color: #ff7bc1;
+  position: relative;
+  top: 8%;
+}
+.sec1{
+	margin-top: 8vh;
+	margin-left: 5%;
+	width: 50%;
+	height: 100vh;
+}
+.headline{
+	font-size: 3em;
+	color: white;
+
+}
+.txt1{
+	font-size: 2vh;
+	max-width: 75%;
+	color: #c8ccff;
+}
+.orange_color{
+	color: orange;
+}
+.active{
+	color: whitesmoke;
+	text-decoration: underline;
+	text-shadow: 0px 0px 10px whitesmoke;
+}
